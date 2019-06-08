@@ -5,8 +5,11 @@ body, html {
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
+
+
 h1, h2, h3, h4, h5{
   color: #fff;
+  font-weight: thin;
 }
 
 a{
@@ -99,7 +102,13 @@ nav a {
 #section-2{
   display: flex;
   padding: 10%;
-  background: rgb(32, 101, 136);
+  background: url("images/forklift.svg");
+  background-size: cover;
+  height: 35vh;
+}
+
+#section-2 .flex-item{
+  width: 40%;
 }
 
 #section-3{
@@ -110,9 +119,19 @@ nav a {
   color: #2d2d2d;
 }
 
-#section-3 a, #section-3 h1{
+#section-3 h1{
   color: #2d2d2d;
 }
+#section-3 p{
+  color: rgb(135, 145, 156);
+}
+
+#section-3 a{
+  color: rgb(208, 74, 73);
+  font-weight: bold;
+}
+
+
 
 .flex-row{
   display: flex;
@@ -125,4 +144,26 @@ nav a {
 
 .bold{
   font-weight: bold;
+}
+
+.cta-text{
+  color: rgb(83, 88, 98);
+}
+
+.button{
+  color: #fff;
+  padding: 7px 20px ;
+  border-radius: 20px;
+}
+
+.button.blue{
+  background: rgb(49, 68, 88);
+}
+
+.button.orange{
+  background: rgb(240, 146, 51);
+}
+
+.button.red{
+  background: rgb(203, 56, 55)
 }
