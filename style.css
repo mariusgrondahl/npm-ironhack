@@ -67,11 +67,12 @@ nav a {
 
 
 #secondary-header{
+  background: transparent;
   display: flex;
   justify-content: space-around;
   padding: 10px;
-  background: transparent;
 }
+
 
 #secondary-header .logo{
   width: 100px;
@@ -86,10 +87,15 @@ nav a {
 }
 
 #section-header{
-  display: flex;
+  background: url("images/city-scape.svg");
+  background-size: cover;
   padding: 10%;
-  margin: 0 auto;
+}
 
+#section-header .flex-item{
+  width: 40%;
+  height: 200px;
+  justify-content: center;
 }
 
 #section-1{
@@ -131,8 +137,6 @@ nav a {
   font-weight: bold;
 }
 
-
-
 .flex-row{
   display: flex;
 }
@@ -154,6 +158,7 @@ nav a {
   color: #fff;
   padding: 7px 20px ;
   border-radius: 20px;
+  margin-top: 40px; 
 }
 
 .button.blue{
